@@ -27,7 +27,6 @@ function setup() {
     asciiDiv.parent('main');
 
     gifSmallResolution.resize(width / pixelSize, height / pixelSize);
-    gif.resize(width, height);
 }
 
 function draw() {
