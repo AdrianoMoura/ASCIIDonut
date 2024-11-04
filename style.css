@@ -29,14 +29,13 @@ div#loading {
 
 div#main>div {
     box-sizing: border-box;
-    margin: 0 5px;
+    margin: 0 10px 0 0;
     display: block;
     width: 480px;
     height: 640px;
 }
 
 div#main #ascii {
-
     font-size: 10px;
     letter-spacing: 3.8px;
     line-height: 10px;
