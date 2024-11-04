@@ -3,27 +3,47 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier';
-    font-size: 8px;
-    letter-spacing: 3px;
-    line-height: 8px;
 }
 
 div#main {
-    justify-content: center;
-    align-items: center;
     display: flex;
-    width: 100vw;
+    align-items: center;
     height: 100vh;
+    width: 100%;
 }
 
-div#main div {
-    background-color: #000;
-    color: #FFF;
+div#loading {
+    position: absolute;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 2000px) {
+    div#main {
+        justify-content: center;
+    }
+}
+
+div#main>div {
+    box-sizing: border-box;
+    margin: 0 5px;
+    display: block;
+    width: 480px;
+    height: 640px;
+}
+
+div#main #ascii {
+
+    font-size: 10px;
+    letter-spacing: 3.8px;
+    line-height: 10px;
     text-align: center;
 }
 
-div#main canvas {
-    width: 480px;
-    height: 640px;
+div#main #ascii>div {
+    background-color: #000;
     color: #FFF;
 }
