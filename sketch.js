@@ -1,8 +1,8 @@
 const density = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1    ?    i!lI;:,^'.         ";
 
 const pixelSize = 10;
-const width = 480;
-const height = 640;
+const width = 450;
+const height = 600;
 
 let gif;
 let gifLowRes;
